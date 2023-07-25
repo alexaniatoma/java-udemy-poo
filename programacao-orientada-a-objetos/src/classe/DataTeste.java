@@ -8,7 +8,7 @@ public class DataTeste {
 		niverAle.mes = 12;
 		niverAle.ano = 1984;
 		
-		System.out.printf("Data aniversário Alexania %d %d %d\n" , niverAle.dia, niverAle.mes, niverAle.ano);
+		System.out.println("Data aniversário Alexania " + niverAle.obterDataFormatada());
 		
 		
 		Data niverCelso = new Data();
@@ -16,7 +16,7 @@ public class DataTeste {
 		niverCelso.mes = 8;
 		niverCelso.ano = 1965;
 		
-		System.out.printf("Data aniversário Celso %d %d %d" , niverCelso.dia, niverCelso.mes, niverCelso.ano);
+		System.out.printf("Data aniversário Celso " + niverCelso.obterDataFormatada());
 		
 		
 	}
