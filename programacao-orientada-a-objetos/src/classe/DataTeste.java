@@ -8,7 +8,7 @@ public class DataTeste {
 		
 		
 		Data data2 = new Data();
-		System.out.printf("Data aniversário Celso " + data2.obterDataFormatada());
+		System.out.printf("Data " + data2.obterDataFormatada());
 		
 		
 	}
